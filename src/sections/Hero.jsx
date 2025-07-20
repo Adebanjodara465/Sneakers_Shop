@@ -81,7 +81,7 @@ function Hero(){
                         src={img} 
                         alt={`Preview ${index + 1}`} 
                         className={`w-20 h-20 object-cover rounded cursor-pointer shadow-sm transition-all duration-200 border-2 
-                          ${mainImage === img ? "border-main" : "border-transparent"}`}
+                          ${mainImage === img ? "border-orange-500" : "border-transparent"}`}
                         onClick = {() => setMainImage(img)}/>
                     ))}
                 </div>
