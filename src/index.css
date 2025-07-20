@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root{
+ --color-blue:#ffff;
+  --color-main :#ff5900;
+  --color-primary :#ff8237;
+  --color-ping :#6eff97;
+  --color-overlay :#fffbdc;
+}
+
+
